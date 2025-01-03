@@ -345,6 +345,7 @@ facto
 factory
 false
 fatal
+file
 finder
 finders
 first
@@ -409,6 +410,7 @@ instances
 int
 integers
 interactive
+interchange
 interface
 interfaces
 internet
@@ -757,6 +759,7 @@ zlib
 αλληλοαποκλείονται
 αλληλογραφίας
 αναδιατάξετε
+αναζητήσιμο
 αναθέτη
 αναθέτης
 ανακατευθυνθεί
