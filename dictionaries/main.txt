@@ -197,6 +197,7 @@ Shop
 Sign
 Skimming
 Smalltalk
+Solaris
 Sox
 Sphinx
 Stacks
@@ -677,6 +678,7 @@ length
 leo
 letters
 lib
+libc
 libffi
 life
 like
@@ -808,6 +810,7 @@ over
 overallocation
 overalpping
 overlap
+pack
 package
 packages
 packing
@@ -930,6 +933,7 @@ sep
 sequence
 sequences
 server
+service
 set
 setattr
 setlocale
@@ -1072,6 +1076,7 @@ typing
 u
 um
 un
+uname
 unary
 uncased
 uncomp
@@ -1299,6 +1304,7 @@ zlib
 μεταφέρετε
 μεταφοράς
 μιμηθείτε
+μονοεπεξεργαστικό
 μπορεί
 να
 ο
@@ -1337,6 +1343,7 @@ zlib
 πλέον
 πληθικότητα
 πολλοί
+πολυεπεξεργαστικό
 πολυμορφική
 προέκδοση
 προεπιλεγμένης
