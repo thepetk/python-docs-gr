@@ -360,6 +360,7 @@ close
 closed
 clossure
 cls
+cmath
 code
 codec
 codecs
@@ -423,6 +424,7 @@ dead
 debug
 debugger
 debugging
+decimal
 decorated
 decorator
 decorators
@@ -746,6 +748,7 @@ mixin
 mixins
 mkdir
 mm
+mod
 mode
 module
 modules
