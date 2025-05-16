@@ -10,6 +10,7 @@ Alternate
 Alternative
 Android
 Apache
+April
 Associates
 Audio
 Avenue
@@ -256,6 +257,7 @@ Twisted
 U
 Ulf
 Unices
+Union
 United
 Unix
 V
@@ -292,6 +294,7 @@ amp
 an
 anchor
 and
+annotate
 annotating
 annotation
 annotations
@@ -754,6 +757,7 @@ key
 keys
 keyword
 keywords
+kilobytes
 kind
 kiwi
 kqueue
@@ -1498,6 +1502,7 @@ zlib
 μιμηθείτε
 μονοεπεξεργαστικό
 μπορεί
+μπορούν
 να
 ο
 οδηγίες
