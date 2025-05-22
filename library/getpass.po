@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-02 23:29+0300\n"
+"POT-Creation-Date: 2025-05-10 10:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,9 +31,8 @@ msgstr ""
 
 #: includes/wasm-notavail.rst:5
 msgid ""
-"This module does not work or is not available on WebAssembly platforms "
-"``wasm32-emscripten`` and ``wasm32-wasi``. See :ref:`wasm-availability` for "
-"more information."
+"This module does not work or is not available on WebAssembly. See :ref:`wasm-"
+"availability` for more information."
 msgstr ""
 
 #: library/getpass.rst:17
@@ -52,34 +51,51 @@ msgstr ""
 
 #: library/getpass.rst:28
 msgid ""
+"The *echo_char* argument controls how user input is displayed while typing. "
+"If *echo_char* is ``None`` (default), input remains hidden. Otherwise, "
+"*echo_char* must be a printable ASCII string and each typed character is "
+"replaced by it. For example, ``echo_char='*'`` will display asterisks "
+"instead of the actual input."
+msgstr ""
+
+#: library/getpass.rst:34
+msgid ""
 "If echo free input is unavailable getpass() falls back to printing a warning "
 "message to *stream* and reading from ``sys.stdin`` and issuing a :exc:"
 "`GetPassWarning`."
 msgstr ""
 
-#: library/getpass.rst:33
+#: library/getpass.rst:39
 msgid ""
 "If you call getpass from within IDLE, the input may be done in the terminal "
 "you launched IDLE from rather than the idle window itself."
 msgstr ""
 
-#: library/getpass.rst:38
+#: library/getpass.rst:42
+msgid "Added the *echo_char* parameter for keyboard feedback."
+msgstr ""
+
+#: library/getpass.rst:47
 msgid "A :exc:`UserWarning` subclass issued when password input may be echoed."
 msgstr ""
 
-#: library/getpass.rst:43
+#: library/getpass.rst:52
 msgid "Return the \"login name\" of the user."
 msgstr ""
 
-#: library/getpass.rst:45
+#: library/getpass.rst:54
 msgid ""
 "This function checks the environment variables :envvar:`LOGNAME`, :envvar:"
 "`USER`, :envvar:`!LNAME` and :envvar:`USERNAME`, in order, and returns the "
 "value of the first one which is set to a non-empty string.  If none are set, "
 "the login name from the password database is returned on systems which "
-"support the :mod:`pwd` module, otherwise, an exception is raised."
+"support the :mod:`pwd` module, otherwise, an :exc:`OSError` is raised."
 msgstr ""
 
-#: library/getpass.rst:52
+#: library/getpass.rst:61
 msgid "In general, this function should be preferred over :func:`os.getlogin`."
+msgstr ""
+
+#: library/getpass.rst:63
+msgid "Previously, various exceptions beyond just :exc:`OSError` were raised."
 msgstr ""

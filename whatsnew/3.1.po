@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-02 23:29+0300\n"
+"POT-Creation-Date: 2025-05-10 10:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgstr ""
 #: whatsnew/3.1.rst:49
 msgid ""
 "This article explains the new features in Python 3.1, compared to 3.0. "
-"Python 3.1 was released on June 27, 2009."
+"Python 3.1 was released on June 27, 2009."
 msgstr ""
 
 #: whatsnew/3.1.rst:54
@@ -603,7 +603,7 @@ msgid "(Contributed by Ross Light; :issue:`4285`.)"
 msgstr ""
 
 #: whatsnew/3.1.rst:406
-msgid "The :mod:`nntplib` and :mod:`imaplib` modules now support IPv6."
+msgid "The :mod:`!nntplib` and :mod:`imaplib` modules now support IPv6."
 msgstr ""
 
 #: whatsnew/3.1.rst:408
